@@ -3,7 +3,7 @@ This is a collection of some of the scripts I've made:
 ## FireWallConfig.sh
 Setup the ufw firewall with rules, prompts for input about your current config such as apache, ssh and nginx, then configurates
 the ufw firewall to deny accordingly.
-Default setting is highest security denying all incoming ports, and allowing only outgoing on port 53, 80 and 443.
+Default setting is highest security denying all incoming ports, and "allowing" (not explicitly denying) outgoing on port 53, 80 and 443.
 53 is needed for DNS.
 
 
