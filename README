@@ -7,6 +7,10 @@ Default setting is highest security denying all incoming ports, and "allowing" (
 53 is needed for DNS.
 
 
+## WebDev.sh
+Setup PHP, Composer, Laravel, NodeJS, NPM, Docker and docker-compose for full webdev package with backend laravel and frontend JS.
+
+
 ## FailToBan.sh
 Setup FailToBan so that people trying to hack or crawl the site without being a verified crawler (such as googlebot) gets banned
 repeated offenders get permanently banned.
@@ -14,5 +18,3 @@ repeated offenders get permanently banned.
 
 ## Antivirus.sh
 Setup clamscan, chkrootkit and rkhunter with log files and cronjobs to automatically run once a week.
-
-## 

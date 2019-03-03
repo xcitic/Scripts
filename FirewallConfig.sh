@@ -26,6 +26,7 @@ if [ "$nginx" = "yes" ]
     sudo ufw allow in 443
 fi
 
+## Deny every port except out 53,80,443 
 sudo ufw deny in 1:65535/tcp
 sudo ufw deny in 1:65535/udp
 sudo ufw deny out 1:52/tcp
