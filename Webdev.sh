@@ -16,11 +16,11 @@ echo "*******************************************************
           *** Installing PHP, Composer & Laravel ***
 *******************************************************"
 sudo apt-get install -y php php-curl php-dom php-json php-pgsql php-tokenizer php-xml php-mysql \
-mcrypt php-bcmath php-intl php-zip composer
+mcrypt php-bcmath php-intl php-zip composer git
 composer global require laravel/installer
 
 # Adding Path variable to bashrc
-if [ -d "$HOME/.config/composer/vendor/bin" ]; then
+if [ -d "$HOME/.config/composer/vendor/bin" ] ; then
   echo PATH="$HOME/.config/composer/vendor/bin:$PATH" >> ~/.bashrc
 fi
 # Reloading bashrc
@@ -45,9 +45,9 @@ echo "*******************************************************
           *** Docker & docker-compose installed ***
               *** Setting up NodeJS & NPM ***
 *******************************************************"
-sudo apt-get install -y npm
+sudo apt-get install -y nodejs
 
 
 echo "*******************************************************
-          *** All Done!  ***
+          *** All Done! Happy hacking ;<) ***
 *******************************************************"
